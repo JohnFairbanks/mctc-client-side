@@ -10,7 +10,7 @@ body {
   
   #game {
     max-width: 500px;
-    max-height: 400px;
+    max-height: 600px;
     background-color: #ffffff;
     color: #ffffff;
     margin: 30px auto 0px;
@@ -38,8 +38,22 @@ body {
   
   button {
     cursor: pointer;
+    color: #ff0020;
+    background-color: #0020ff;
+    background-image: linear-gradient(#20ff00, #20ff00);
+    border: 3px solid #0020ff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+  }
+
+  #pic {
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 5px;
     color: #0a0a23;
-    background-color: #feac32;
-    background-image: linear-gradient(#fecc4c, #ffac33);
-    border: 3px solid #feac32;
+  }
+
+  #monster-pic {
+    height: 300px;
+    width: 300px;
   }
