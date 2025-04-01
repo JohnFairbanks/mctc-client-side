@@ -3,6 +3,7 @@ const budgetNumberInput = document.getElementById('budget');
 const entryDropdown = document.getElementById('entry-dropdown');
 const addEntryButton = document.getElementById('add-entry');
 const clearButton = document.getElementById('clear');
+const addThousandButton = document.getElementById('AddThousandBtn');
 const output = document.getElementById('output');
 let isError = false;
 
@@ -96,6 +97,12 @@ function clearForm() {
   output.classList.add('hide');
 }
 
+function addOneThousandCalories() {
+    let currentValueNum = Number(budgetNumberInput.value);
+    budgetNumberInput.value = currentValueNum + 1000;
+}
+
 addEntryButton.addEventListener("click", addEntry);
 calorieCounter.addEventListener("submit", calculateCalories);
 clearButton.addEventListener("click", clearForm);
+addThousandButton.addEventListener("click", addOneThousandCalories);
