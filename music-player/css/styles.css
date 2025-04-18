@@ -2,18 +2,18 @@
     /* colors */
     --primary-color: #dfdfe2;
     --secondary-color: #ffffff;
-    --app-background-color: #4d4d62;
-    --background-color: #1b1b32;
-    --foreground-color: #3b3b4f;
-    --highlight-color: #f1be32;
+    --app-background-color: #efeff5;
+    --background-color: #0d0ddf;
+    --foreground-color: #020217;
+    --highlight-color: #4c3e16;
   
     /* font sizes */
-    --root-font-size: 16px;
+    --root-font-size: 18px;
     font-size: var(--root-font-size);
   
     /* font-families */
     --font-headline: "Roboto Mono", monospace;
-    --font-family: "Lato", sans-serif;
+    --font-family: "Courier New", sans-serif;
   }
   
   *,
